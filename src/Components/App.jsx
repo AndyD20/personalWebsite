@@ -16,13 +16,15 @@ const App = () => {
               <Menu/>
             </div>
           </div>
-          <Switch>
-            <Route exact={true} path="/" component={Home}/>
-            <Route path="/Home" component={Home}/>
-            <Route path="/About" component={About}/>
-            <Route path="/Entries" component={Books}/>
-            <Route component={Home}/>
-          </Switch>
+          <div className="Force-Page-Height Overflow-Container w-100">
+            <Switch>
+              <Route exact={true} path="/" component={Home}/>
+              <Route path="/Home" component={Home}/>
+              <Route path="/About" component={About}/>
+              <Route path="/Entries" component={Books}/>
+              <Route component={Home}/>
+            </Switch>
+          </div>
         </div>
       </div>
     </Router>

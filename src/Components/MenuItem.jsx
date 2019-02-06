@@ -18,7 +18,7 @@ const MenuItem = ({path, firstEntry, lastEntry}) => {
   return (
     <tr className={isActive("/" + path, lastEntry)}>
       <td>
-        <Link to={"/" + path} className={`mw-100 pr-5 pb-3 ${firstEntry ? "pt-5" : "pt-3"} Menu-Item Text-Black`}>{path}</Link>
+        <Link to={"/" + path} className={`mw-100 pr-5 pl-3 pb-3 ${firstEntry ? "pt-5" : "pt-3"} Menu-Item Text-Black`}>{path}</Link>
       </td>
     </tr>
   )

@@ -70,6 +70,24 @@ td a {
   right: 0;
 }
 
+.Left-Aligned-Content {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Spaced-Paragraph {
+    padding-top: 20px;
+}
+
+.Force-Page-Height {
+    height: 100vh;
+}
+
+.Overflow-Container {
+    overflow: auto;
+}
+
 .form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
