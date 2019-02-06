@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import '../styles/App.css';
+import '../Styles/App.css';
 import Menu from "./Menu";
 import Home from "./Home";
 import About from "./About";
-import Books from "./Entries";
+import Blog from "./Blog";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
               <Route exact={true} path="/" component={Home}/>
               <Route path="/Home" component={Home}/>
               <Route path="/About" component={About}/>
-              <Route path="/Entries" component={Books}/>
+              <Route path="/Blog" component={Blog}/>
               <Route component={Home}/>
             </Switch>
           </div>

@@ -7,7 +7,7 @@ const Menu = () => {
       <table className="text-right w-100 ">
         <tbody>
           <MenuItem path="Home" firstEntry={true}/>
-          <MenuItem path="Entries" />
+          <MenuItem path="Blog" />
           <MenuItem path="About" lastEntry={true}/>
         </tbody>
       </table>
